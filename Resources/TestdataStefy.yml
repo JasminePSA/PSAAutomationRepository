@@ -1,0 +1,79 @@
+Crdregistrydetails:
+  crd_registry_number: 2022-5434345
+  registry_year: 2022
+  crd_reg_no: 5434345
+  crdbatch1:  11
+  deathbatch_name:  00103202210CD01011R
+
+Cdliregistrydetails:
+  cdli_registry_number: 2022-7234995
+  cdli_registryyear: 2022
+  cdli_regno: 7234995
+  deathbatchcdli: 5
+  cdli_batchname:  00103202210CDC1111R
+
+
+Piecemeal:
+  piecemeal_birth: 2022-5434872
+  piecemeal_marriage: 2022-5434273
+  piecemeal_death: 2022-5434761
+  piecemeal_fetal: 2022-5434723
+
+EERequest:
+  ee_ra: 2022-2657395
+
+Cdlira:
+  cdlira_regi1: 2022-7654929
+  cdlira_regi2: 2022-6688227
+  cdlira_regi2split: 6688227
+  cdlira_regi3: 2022-3374749
+  cdlira_regi3split: 3374749
+  rabatch1:  13
+  rabatch2:  14
+Supplemental_death:
+  supple_death: 2022-3847928
+  supple_deathsplit: 3847928
+  supple_cdlideath_regi: 2022-7733488
+  crdbatch_name:  01515202210CD05591R
+  cdli_batchname:  01515202210CDC55892R
+  eeregnum:  2022-2657458
+  crd_batchno:  6
+  li_batchcdli:  4
+
+Authentication:
+  QTN: 0009
+  DateOfDeath: 01012018
+  Secpa: FX000020326
+
+
+BillDefferedClients:
+  Secpa: FX000020320
+  Secpa1: FX000020321
+
+DocPrint:
+  ReferenceNo: 08280-003-00041-001
+
+Print:
+  Secpa:  KJ000000106
+  Secpa1:  KJ000000107
+PremiumAnn:
+  ImageID: 08282CDA00300000010
+  RegistryNo: 2021-9999999
+  Secpa: FX000020322
+  Secpa1: FX000020323
+  eenumber:  2022-7786734
+  cdliregino:  2022-7731292
+  cdliregino_year:  2022
+  cdliregino_no: 7731292
+  pacdlibatchno: 206
+
+RegularAnn:
+
+  RegistryNo: 2022-7483652
+  cdliyear:  2022
+  cdliregno:  7483652
+  batchno:  219
+  eenumberm:  2022-8234824
+
+ProbonoDeathCI:
+  ReferenceNo:  0824900300010001

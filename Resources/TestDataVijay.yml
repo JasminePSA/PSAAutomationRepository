@@ -1,0 +1,62 @@
+### VEI Test cases ###
+### 258590 - VEI - Regular Submission - Foreign Marriage ### Sanity 1
+registry_num_foreign_marriage: 2022-1234401
+batch_num_marriage: 34
+reg_marriage: 1234401
+
+### 258547 - VEI - RegularSubmissionCRD ### Sanity 2
+registry_num_crd_birth:  2022-1234371
+batch_num_birth:  402
+reg_birth:  1234371
+staging_batchid:  00101202212CB023611R
+
+### Release certificate - Secpa number ###
+secpa_number:  VI000000434
+
+### 258558 - PremiumMultipleAnnotationMarriage ### change pmo reference num, date, registry num for EE image id, 2 registry nos, and secpa no in releasing
+payment_refnum_yml:   123456789133
+check_date_yml:       11/18/2022
+Date_Received_yml:    11/18/2022
+Endorsedregdate_yml:    11/18/2022
+EndorsedRegnum_yml:     2022-1444451
+
+cdli_mrg_registry_no1:  2022-9800009
+cdli_mrg_batch_num1:     204
+cdli_mrg_regnumber1:       9800009
+
+cdli_mrg_registry_no2:  2022-9800010
+cdli_mrg_batch_num2:     205
+cdli_mrg_regnumber2:       9800010
+
+### 258571 - Copy Issuance - CENOMAR ###
+### Electronic Endorsement - APPROVAL - MARRIAGE
+EndorsedRegnummarriage_yml:   2022-1444445
+Endorsedregdatemarriage_yml:    11/21/2022
+
+
+
+### Regular Submission RA 9255 Premium Annotation Birth
+### Registry Number for CRD Birth ###
+### change office code to Abra before run
+date_received_yml:    11/23/2022
+
+registry_num_crd_birth_RA9255:     2022-1255110
+reg_year_crd_birth:    2022
+sequenceno_crd_birth:  1255110
+
+batch_num_Birth_RA9255:      355
+reg_birth_RA9255:      1255110
+staging_batchid_RA9255:     00101202210CB0123405R
+
+### Encode LCR CDLI and Batch creation ###
+### Registry Number for CDLI ###
+### change office code to Abra before run
+cdli_datereceived_yml:    11/23/2022
+
+registry_num_cdli_RA9255:     2022-1234116
+batch_num_cdli_RA9255:    20
+regno_cdli_RA9255:     1234116
+staging_batchid_cdli_RA9255:      00101202210CBC605011R
+
+
+

@@ -1,0 +1,42 @@
+crdregistrydeatils:
+  crd_registry_number: 2022-2100100
+  registry_year: 2022
+  crd_reg_no: 2100100
+
+cdliregistrydeatils:
+  cdli_registry_number: 2022-2500102
+  cdli_registry_year: 2022
+  cdli_reg_no: 2500100
+
+EErequest:
+  ee_ra: 2022-2500004
+  ee_birth: 2022-2500005
+  ee_death: 2022-2500006
+
+
+encodepiecemeal:
+  piecemeal_birth: 2022-2500103
+  piecemeal_marriage: 2022-2500104
+  piecemeal_death: 2022-2500105
+  piecemeal_fetal: 2022-2500106
+
+encodeendorsedcrd:
+  endorsed_birth: 2022-2500000
+  endorsed_marriage: 2022-2500001
+  endorsed_death: 2022-2500002
+
+#Image ID for Process Annotation
+
+annotationprocess:
+  imageid_birth: 08284CBC00300000010
+  imageid_marriage: 08284CBC00300000010
+  imageid_death: 08284CBC00300000010
+
+accountingrcd_date: 01/01/2021
+
+#Document Conversion
+dc:
+  cdliBatchidpath: C:\Users\ThomasJ1\PycharmProjects\dc\00101202209CBC8831124R
+  cdliBatchid: 00101202209CBC8831124R
+
+

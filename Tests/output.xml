@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221216 14:31:47.219" rpa="false" schemaversion="3">
+<suite id="s1" name="Jasmineencodepiecemealadmin" source="C:\Users\ThomasJ1\PycharmProjects\CRSITP2AUTOMATION\tests\jasmineencodepiecemealadmin.robot">
+<test id="s1-t1" name="Verify EncodePiecemealadmin" line="14">
+<kw name="Launch Application" library="ITP2KeywordsJasmine">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_qa}</arg>
+<arg>${browser}</arg>
+<arg>headless=False</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221216 14:31:48.375" level="INFO">Opening browser 'chrome' to base url 'http://ustr-erl2-3644.na.uis.unisys.com:9205/?ActiveWkstUserDetails=SU4tVEhPTUFTSjE='.</msg>
+<status status="PASS" starttime="20221216 14:31:48.359" endtime="20221216 14:32:40.899"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>15</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:32:55.900" level="INFO">Slept 15 seconds</msg>
+<status status="PASS" starttime="20221216 14:32:40.899" endtime="20221216 14:32:55.900"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221216 14:32:55.900" endtime="20221216 14:32:56.041"/>
+</kw>
+<status status="PASS" starttime="20221216 14:31:48.359" endtime="20221216 14:32:56.041"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${home_menu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:32:56.042" endtime="20221216 14:32:56.087"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${home_menu}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221216 14:32:56.088" level="INFO">Clicking link 'xpath=//a[@id='dashboard']'.</msg>
+<status status="PASS" starttime="20221216 14:32:56.087" endtime="20221216 14:32:58.091"/>
+</kw>
+<kw name="Selectingveihomepage" library="ITP2KeywordsJasmine">
+<kw name="Click Image" library="SeleniumLibrary">
+<arg>${more_menu}</arg>
+<doc>Clicks an image identified by ``locator``.</doc>
+<msg timestamp="20221216 14:32:58.097" level="INFO">Clicking image 'xpath=//img[@src='/Common/Content/images/more-icon.svg']'.</msg>
+<status status="PASS" starttime="20221216 14:32:58.094" endtime="20221216 14:32:58.222"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${vitaleventinformation_menu}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221216 14:32:58.223" level="INFO">Clicking link 'xpath=//a[contains(text(),'Vital Events Information')]'.</msg>
+<status status="PASS" starttime="20221216 14:32:58.222" endtime="20221216 14:32:58.362"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${veihome_submenu}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221216 14:32:58.363" level="INFO">Clicking link 'xpath=//a[contains(text(),'VEI Home')]'.</msg>
+<status status="PASS" starttime="20221216 14:32:58.362" endtime="20221216 14:33:27.272"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>15</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:33:42.273" level="INFO">Slept 15 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:27.272" endtime="20221216 14:33:42.273"/>
+</kw>
+<status status="PASS" starttime="20221216 14:32:58.094" endtime="20221216 14:33:42.273"/>
+</kw>
+<kw name="Encodepiecemealadministartivecorrectionbirth" library="ITP2KeywordsJasmine">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${piecemeal_link}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:33:42.273" endtime="20221216 14:33:42.304"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${piecemeal_link}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221216 14:33:42.304" level="INFO">Clicking link 'xpath=//a[contains(text(),'Encode Piecemeal CRD/CDLI')]'.</msg>
+<status status="PASS" starttime="20221216 14:33:42.304" endtime="20221216 14:33:45.359"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:33:49.360" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:45.359" endtime="20221216 14:33:49.360"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${piecemeal_city_dropdown}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:33:49.360" endtime="20221216 14:33:49.391"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_city_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:33:49.391" level="INFO">Selecting options from selection list 'xpath=//*[@id="BatchDetailModelDiv"]/div[1]/div[1]/div[3]/div/select' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:33:49.391" endtime="20221216 14:33:49.521"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:33:51.522" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:49.521" endtime="20221216 14:33:51.522"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${piecemeal_regbooktype_dropdown}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:33:51.522" endtime="20221216 14:33:51.533"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_regbooktype_dropdown}</arg>
+<arg>15</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:33:51.533" level="INFO">Selecting options from selection list 'xpath=//*[@id="BatchDetailModelDiv"]/div[1]/div[2]/div[3]/div/select' by index 15.</msg>
+<status status="PASS" starttime="20221216 14:33:51.533" endtime="20221216 14:33:51.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:33:53.818" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:51.818" endtime="20221216 14:33:53.818"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${piecemeal_docsubtype_dropdown}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:33:53.818" endtime="20221216 14:33:53.838"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_docsubtype_dropdown}</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:33:53.838" level="INFO">Selecting options from selection list 'xpath=//div[2]/div/select[@id="ddlDocSubType"]' by index 2.</msg>
+<status status="PASS" starttime="20221216 14:33:53.838" endtime="20221216 14:33:53.982"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:33:55.983" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:53.982" endtime="20221216 14:33:55.983"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${piecemeal_adminbirth_regno_text}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:33:55.983" endtime="20221216 14:33:56.012"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:33:58.012" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:56.012" endtime="20221216 14:33:58.012"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${piecemeal_adminbirth_regno_text}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221216 14:33:58.012" level="INFO">Clicking element 'xpath=//input[@id='registryNumber']'.</msg>
+<status status="PASS" starttime="20221216 14:33:58.012" endtime="20221216 14:33:58.082"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_adminbirth_regno_text}</arg>
+<arg>${admin_registry_number}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:33:58.082" level="INFO">Typing text '2022-1000033' into text field 'xpath=//input[@id='registryNumber']'.</msg>
+<status status="PASS" starttime="20221216 14:33:58.082" endtime="20221216 14:33:58.175"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>${piecemeal_adminbirth_regno_text}</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20221216 14:33:58.178" level="INFO">Sending key(s) ('ENTER',) to xpath=//input[@id='registryNumber'] element.</msg>
+<msg timestamp="20221216 14:33:58.483" level="INFO">Pressing special key ENTER to element.</msg>
+<msg timestamp="20221216 14:33:58.483" level="INFO">Releasing special key ENTER.</msg>
+<status status="PASS" starttime="20221216 14:33:58.177" endtime="20221216 14:33:58.494"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:00.494" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:33:58.494" endtime="20221216 14:34:00.494"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${piecemeal_li_regdetails_submit_button}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221216 14:34:00.494" endtime="20221216 14:34:00.526"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:02.529" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:34:00.528" endtime="20221216 14:34:02.529"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${piecemeal_li_regdetails_submit_button}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:02.529" level="INFO">Clicking button 'xpath=//button[@id='submitrecord']'.</msg>
+<status status="PASS" starttime="20221216 14:34:02.529" endtime="20221216 14:34:11.459"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:13.460" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:34:11.460" endtime="20221216 14:34:13.460"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_petitionersrelatn_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:13.461" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[2]/div[1]/div/select' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:13.460" endtime="20221216 14:34:13.596"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,300)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221216 14:34:13.597" level="INFO">Executing JavaScript:
+window.scrollTo(0,300)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221216 14:34:13.596" endtime="20221216 14:34:13.606"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:15.606" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:34:13.606" endtime="20221216 14:34:15.606"/>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>${piecemeal_admin_petreason_grnd_checkbox}</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:15.606" level="INFO">Selecting checkbox 'xpath=//*[@id="cnfpetionreason"]/div[2]/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:15.606" endtime="20221216 14:34:15.706"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:17.706" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:34:15.706" endtime="20221216 14:34:17.706"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_peytregprovince_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:17.706" level="INFO">Selecting options from selection list 'xpath=/html/body/div[1]/div/div[2]/div[1]/div[1]/div/div/div/div/div[4]/div[1]/div/select' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:17.706" endtime="20221216 14:34:17.917"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_petregcity_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:17.918" level="INFO">Selecting options from selection list 'xpath=/html/body/div[1]/div/div[2]/div[1]/div[1]/div/div/div/div/div[4]/div[2]/div/select' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:17.917" endtime="20221216 14:34:18.091"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_petregmonth_dropdown}</arg>
+<arg>9</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:18.092" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[5]/div[1]/div/select' by index 9.</msg>
+<status status="PASS" starttime="20221216 14:34:18.091" endtime="20221216 14:34:18.331"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_petregday_text}</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:18.332" level="INFO">Typing text '1' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[5]/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:18.331" endtime="20221216 14:34:18.455"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_petregyear}</arg>
+<arg>2022</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:18.456" level="INFO">Typing text '2022' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[5]/div[3]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:18.455" endtime="20221216 14:34:18.599"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_regnoatbirth_text}</arg>
+<arg>2022-0000030</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:18.600" level="INFO">Typing text '2022-0000030' into text field 'xpath=//input[@id='RegistryNoBirth']'.</msg>
+<status status="PASS" starttime="20221216 14:34:18.600" endtime="20221216 14:34:18.759"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,600)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221216 14:34:18.760" level="INFO">Executing JavaScript:
+window.scrollTo(0,600)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221216 14:34:18.759" endtime="20221216 14:34:18.767"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:20.768" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:34:18.768" endtime="20221216 14:34:20.768"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_childfirstname_text}</arg>
+<arg>ANU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:20.768" level="INFO">Typing text 'ANU' into text field 'xpath=//input[@data-bind='value:childFirstName']'.</msg>
+<status status="PASS" starttime="20221216 14:34:20.768" endtime="20221216 14:34:20.886"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_childlastname_text}</arg>
+<arg>JOHN</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:20.887" level="INFO">Typing text 'JOHN' into text field 'xpath=//input[@data-bind='value:childLastName']'.</msg>
+<status status="PASS" starttime="20221216 14:34:20.886" endtime="20221216 14:34:21.039"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_dateofbirthday_text}</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:21.040" level="INFO">Typing text '1' into text field 'xpath=//input[@data-bind='value:birthDay']'.</msg>
+<status status="PASS" starttime="20221216 14:34:21.040" endtime="20221216 14:34:21.156"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_dateofbirthmonth_dropdown}</arg>
+<arg>9</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:21.157" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[8]/div[2]/div/select' by index 9.</msg>
+<status status="PASS" starttime="20221216 14:34:21.156" endtime="20221216 14:34:21.457"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_dateofbirthyear_text}</arg>
+<arg>2022</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:21.458" level="INFO">Typing text '2022' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[8]/div[3]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:21.457" endtime="20221216 14:34:21.579"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_sex_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:21.580" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[9]/div/div/select' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:21.579" endtime="20221216 14:34:21.733"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_placeofbirthprovince_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:21.734" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIPlaceofBirthProvince"]' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:21.733" endtime="20221216 14:34:21.931"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_placeofbirthcity}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:21.933" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIPlaceofBirthCity"]' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:21.932" endtime="20221216 14:34:22.084"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_motherfirstname_text}</arg>
+<arg>ASHA</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:22.084" level="INFO">Typing text 'ASHA' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[11]/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:22.084" endtime="20221216 14:34:22.210"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_motherlastname_text}</arg>
+<arg>SONA</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:22.211" level="INFO">Typing text 'SONA' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[11]/div[3]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:22.210" endtime="20221216 14:34:22.337"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_dateofapprovalmonth_dropdown}</arg>
+<arg>9</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:22.338" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[13]/div[1]/div/select' by index 9.</msg>
+<status status="PASS" starttime="20221216 14:34:22.337" endtime="20221216 14:34:22.563"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_dateofapprovalday_text}</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:22.563" level="INFO">Typing text '1' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[13]/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:22.563" endtime="20221216 14:34:22.691"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_dateofapprovalyear_text}</arg>
+<arg>2022</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:22.692" level="INFO">Typing text '2022' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[13]/div[3]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:22.691" endtime="20221216 14:34:22.814"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,1000)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221216 14:34:22.816" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221216 14:34:22.814" endtime="20221216 14:34:22.824"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221216 14:34:24.824" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221216 14:34:22.824" endtime="20221216 14:34:24.824"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_placeofapprovalprovince_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:24.824" level="INFO">Selecting options from selection list 'xpath=//*[@id="AdminBirthpromolProvince"]' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:24.824" endtime="20221216 14:34:25.037"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_placeofapprovalcity_dropdown}</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:25.037" level="INFO">Selecting options from selection list 'xpath=//*[@id="AdminBirthpromolCity"]' by index 1.</msg>
+<status status="PASS" starttime="20221216 14:34:25.037" endtime="20221216 14:34:25.185"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${piecemeal_admin_regmonth_dropdown}</arg>
+<arg>9</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221216 14:34:25.186" level="INFO">Selecting options from selection list 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[15]/div[1]/div/select' by index 9.</msg>
+<status status="PASS" starttime="20221216 14:34:25.185" endtime="20221216 14:34:25.427"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecemeal_admin_regdate_text}</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:25.428" level="INFO">Typing text '1' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[15]/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:25.427" endtime="20221216 14:34:25.545"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${piecel_admin_regyear_text}</arg>
+<arg>2022</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:25.546" level="INFO">Typing text '2022' into text field 'xpath=//*[@id="LIFormDetailsDiv"]/div/div[15]/div[3]/div/input'.</msg>
+<status status="PASS" starttime="20221216 14:34:25.545" endtime="20221216 14:34:25.670"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${piecemeal_admin_finalsubmitbtn}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221216 14:34:25.671" level="INFO">Clicking button 'xpath=//*[@id="generalBirthSubmit"]'.</msg>
+<status status="PASS" starttime="20221216 14:34:25.670" endtime="20221216 14:34:25.791"/>
+</kw>
+<status status="PASS" starttime="20221216 14:33:42.273" endtime="20221216 14:34:25.791"/>
+</kw>
+<status status="PASS" starttime="20221216 14:31:48.359" endtime="20221216 14:34:25.791"/>
+</test>
+<status status="PASS" starttime="20221216 14:31:47.219" endtime="20221216 14:34:25.793"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Jasmineencodepiecemealadmin">Jasmineencodepiecemealadmin</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221216 14:31:47.530" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 15: Setting 'Suite Setup' is not allowed in resource file.</msg>
+<msg timestamp="20221216 14:31:47.530" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 17: Non-existing setting 'import java.awt.AWTException'.</msg>
+<msg timestamp="20221216 14:31:47.530" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 18: Non-existing setting 'import java.awt.Robot'.</msg>
+<msg timestamp="20221216 14:31:47.530" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 19: Non-existing setting 'import java.awt.event.KeyEvent'.</msg>
+<msg timestamp="20221216 14:31:47.530" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 20: Non-existing setting 'import SendKeys'.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 21: Non-existing setting 'import'.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 22: Non-existing setting 'import pyodbc'.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 99: Setting 'Documentation' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 118: Setting 'Documentation' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 436: Setting 'Documentation' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 452: Setting 'Documentation' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20221216 14:31:47.546" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 472: Setting 'Documentation' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20221216 14:31:48.281" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 7: Library 'C:UsersThomasJ1PycharmProjectsCRS ITP2 Automation\Resources\Upload.py' does not exist.</msg>
+<msg timestamp="20221216 14:31:48.297" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 8: Resource file 'C:UsersThomasJ1PycharmProjectsCRS ITP2 Automation\ObjectRepository\ITP2LocatorsJasmine.robot' does not exist.</msg>
+<msg timestamp="20221216 14:31:48.328" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2Automation\Resources\ITP2KeywordsJasmine.robot' on line 14: Importing library 'RPA.Database' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\Scripts\robot.exe
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\Lib\site-packages
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\Lib\site-packages\win32
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\Lib\site-packages\win32\lib
+  C:\Users\ThomasJ1\AppData\Local\Programs\Python\Python311\Lib\site-packages\Pythonwin</msg>
+<msg timestamp="20221216 14:31:48.359" level="ERROR">Error in file 'C:\Users\ThomasJ1\PycharmProjects\CRSITP2AUTOMATION\tests\jasmineencodepiecemealadmin.robot' on line 6: Invalid resource file extension '.yml'. Supported extensions are '.resource', '.robot', '.txt', '.tsv', '.rst' and '.rest'.</msg>
+</errors>
+</robot>

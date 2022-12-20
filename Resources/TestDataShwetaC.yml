@@ -1,0 +1,64 @@
+PremiumAnnotationDetails:
+     RegistryNumber:  2022-1467921
+     BatchNumber:  55
+     CDLIdata:  -1467921
+     province:
+
+CRDRCCDetails:
+  CRDRCCDate1:  12/05/2022
+
+SecNumbers:
+  Se_no1:  CK000000083
+  Se_no2:  CK000000084
+
+ERequest:
+  e_ra:  2022-6775775
+
+ElectronicEndorsement:
+  EERenumber1:  2022-1999457
+
+CustomerManagement:
+  c_bid:  90598
+  C_name:  Shweta
+
+Cd:
+  Sec_no:  CK000000068
+
+CDS:
+  Sec_no3:  CK000000000
+
+RegistryAnnotation:
+  RANumber:  2022-0587848
+  RABNumber: 12
+  RACDLIdata: -0587848
+  R_no:  2022-6785899
+
+RegistryW:
+  RAN:  2022-1587841
+  RAB:  7
+  RACDli:  -1587841
+  RA_no:  2022-6775899
+
+BirthWalk:
+  BS_NO:  CK000000072
+  BS_NO1:  CK000000073
+
+DocBirth:
+  DOC_No:  CK000000074
+
+DocMarriage:
+  DOM_NO:  CK000000079
+  DOM_NO1:  CK000000080
+
+PremiumDeath:
+  DAN:  2022-2587859
+  DAB:  18
+  DAPli:  -2587859
+  DA_NO:  2022-2587852
+  DAP_NO:  CK000000081
+  DapNO5:  CK000000082
+
+
+
+
+
