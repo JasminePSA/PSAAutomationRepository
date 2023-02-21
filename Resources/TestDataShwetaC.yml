@@ -1,62 +1,66 @@
 PremiumAnnotationDetails:
-     RegistryNumber:  2022-1467921
+     RegistryNumber:  2023-1467922
      BatchNumber:  55
-     CDLIdata:  -1467921
-     province:
+     CDLIdata:  -1467922
+     P_m1:  02/17/2023
 
 CRDRCCDetails:
-  CRDRCCDate1:  12/05/2022
+  CRDRCCDate1:  02/17/2023
 
 SecNumbers:
-  Se_no1:  CK000000083
-  Se_no2:  CK000000084
+  Se_no1:  CJ000000000
+  Se_no2:  CJ000000001
 
 ERequest:
-  e_ra:  2022-6775775
+  e_ra:  2023-6775775
 
 ElectronicEndorsement:
-  EERenumber1:  2022-1999457
+  EERenumber1:  2023-1999457
+  E_m1:  02/17/2023
+  E_d1:  17
+  E_m2:  02
+  E_y1:  2023
 
 CustomerManagement:
-  c_bid:  90598
+  c_bid:  90101
   C_name:  Shweta
 
 Cd:
-  Sec_no:  CK000000068
+  Sec_no:  CJ000000002
 
 CDS:
-  Sec_no3:  CK000000000
+  Sec_no3:  CJ000000003
 
 RegistryAnnotation:
-  RANumber:  2022-0587848
-  RABNumber: 12
+  RANumber:  2023-0587848
+  RABNumber: 13
   RACDLIdata: -0587848
-  R_no:  2022-6785899
+  R_no:  2023-6785899
 
 RegistryW:
-  RAN:  2022-1587841
-  RAB:  7
+  RAN:  2023-1587841
+  RAB:  8
   RACDli:  -1587841
-  RA_no:  2022-6775899
+  RA_no:  2023-6775899
 
 BirthWalk:
-  BS_NO:  CK000000072
-  BS_NO1:  CK000000073
+  BS_NO:  CJ000000004
+  BS_NO1:  CJ000000005
 
 DocBirth:
-  DOC_No:  CK000000074
+  DOC_No:  CJ000000006
 
 DocMarriage:
-  DOM_NO:  CK000000079
-  DOM_NO1:  CK000000080
+  DOM_NO:  CJ000000007
+  DOM_NO1:  CJ000000008
 
 PremiumDeath:
-  DAN:  2022-2587859
-  DAB:  18
+  DAN:  2023-2587859
+  DAB:  19
   DAPli:  -2587859
-  DA_NO:  2022-2587852
-  DAP_NO:  CK000000081
-  DapNO5:  CK000000082
+  DA_NO:  2023-2587852
+  DAP_NO:  CJ000000009
+  DapNO5:  CJ000000010
 
 
 
